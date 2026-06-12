@@ -1,14 +1,6 @@
-/* * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
-a {
-    text-decoration: none;
-}
 
-/* ── NAVBAR ── */
+
 .logo img {
     width: 50px;
     margin-left: 70px;
@@ -34,6 +26,10 @@ a {
     align-items: center;
     margin-right: 100px;
 }
+.str .nav a {
+    color: black;
+    text-decoration: none;
+}
 
 button {
     background-color: black;
@@ -44,7 +40,6 @@ button {
     border: none;
 }
 
-/* ── HERO (section 1) ── */
 .aa {
     display: flex;
     align-items: center;
@@ -67,14 +62,12 @@ button {
     padding-right: 150px;
 }
 
-/* ── SOCIAL ICONS ── */
 .fa-instagram,
 .fa-github,
 .fa-linkedin {
     color: black;
 }
 
-/* ── SKILLS (section 2) ── */
 .sec2 {
     background-color: black;
     color: white;
@@ -106,7 +99,7 @@ button {
     color: black;
 }
 
-/* ── PROJECTS (section 3 grid) ── */
+
 .za {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -131,13 +124,13 @@ button {
     width: 500px;
 }
 
-/* ── SECTION 4 ── */
+
 .sec4 {
     background-color: black;
     color: white;
 }
 
-/* ── CONTACT / SEC3 ── */
+
 .pro {
     text-align: center;
     padding-top: 20px;
@@ -206,11 +199,7 @@ button {
     padding-left: 700px;
 } */
 
-/* ════════════════════════════════════════
-   RESPONSIVE BREAKPOINTS
-════════════════════════════════════════ */
 
-/* ── Large tablets / small laptops (≤ 1200px) ── */
 @media (max-width: 1200px) {
     .aa {
         padding: 40px 80px;
@@ -242,9 +231,9 @@ button {
     }
 }
 
-/* ── Tablets (≤ 900px) ── */
+
 @media (max-width: 900px) {
-    /* Navbar */
+
     .logo img {
         margin-left: 20px;
     }
@@ -255,7 +244,7 @@ button {
         font-size: 14px;
     }
 
-    /* Hero */
+  
     .aa {
         flex-direction: column;
         align-items: center;
@@ -279,12 +268,12 @@ button {
         padding-top: 30px;
     }
 
-    /* Skills */
+    
     .myskill {
         padding-top: 50px;
     }
 
-    /* Projects grid */
+    
     .za {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -307,7 +296,6 @@ button {
         width: 100%;
     }
 
-    /* Sec3 */
     .sec3 {
         grid-template-columns: 1fr;
         padding: 80px 30px;
@@ -322,7 +310,7 @@ button {
         max-width: 100%;
     }
 
-    /* Contact cards */
+   
     .ll {
         flex-direction: column;
         gap: 40px;
@@ -340,9 +328,8 @@ button {
     }
 }
 
-/* ── Mobile (≤ 600px) ── */
 @media (max-width: 600px) {
-    /* Navbar: collapse nav links or wrap */
+    
     .str {
         flex-wrap: wrap;
         height: auto;
@@ -368,7 +355,7 @@ button {
         font-size: 13px;
     }
 
-    /* Hero */
+  
     .aa {
         padding: 30px 16px;
     }
@@ -381,7 +368,7 @@ button {
         width: 95%;
     }
 
-    /* Skills */
+   
     .sec2 {
         min-height: unset;
         padding: 40px 16px;
@@ -403,12 +390,12 @@ button {
         font-size: 12px;
     }
 
-    /* Projects */
+    
     .za img {
         padding-top: 10px;
     }
 
-    /* Sec3 */
+   
     .sec3 {
         padding: 50px 16px;
     }
@@ -418,7 +405,6 @@ button {
         border-radius: 16px;
     }
 
-    /* Contact cards */
     .ll {
         padding: 50px 16px;
     }
