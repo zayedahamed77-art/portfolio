@@ -92,10 +92,10 @@ button {
 
 .skill {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .skill h4 {
@@ -206,7 +206,7 @@ button {
 .ff {
     padding: 50px;
     padding-left: 700px;
-} */
+} 
 
 
 @media (max-width: 1200px) {
